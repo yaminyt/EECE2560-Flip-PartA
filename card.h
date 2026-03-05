@@ -9,6 +9,9 @@
 
 class card
 {
+card(const card& c);
+card& operator=(const card& c);
+
 public:
    card(int v = 1, int s = 0);
 
